@@ -65,7 +65,7 @@ export default function LoginPage() {
         className="p-2 border border-slate-300 rounded-lg mb-4 focus:outline-none focus:border-slate-600">
         Login
       </button>
-      <Link href={"/signup"}>Don't have account ? <span className="underline">Register</span></Link>
+      <Link href={"/signup"}><p>{`Don't have account ? `}</p><span className="underline">Register</span></Link>
     </div>
   );
 }

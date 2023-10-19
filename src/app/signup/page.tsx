@@ -75,7 +75,7 @@ export default function SignUpPage() {
         className="p-2 border border-slate-300 rounded-lg mb-4 focus:outline-none focus:border-slate-600">
         { buttonDisabled ? "Wait" : "Sign Up"}
       </button>
-      <Link href={"/login"}>Already have account ? <span className="underline">Login</span></Link>
+      <Link href={"/login"}><p>{`Already have account ? `}</p><span className="underline">Login</span></Link>
     </div>
   );
 }
